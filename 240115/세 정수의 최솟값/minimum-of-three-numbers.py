@@ -6,11 +6,8 @@ c = int(arr[2])
 
 min = a
 
-if a > b:
+if min > b:
     min = b
-elif a > c:
+elif min > c:
     min = c
-elif b > c:
-    min = c
-
 print(min)
