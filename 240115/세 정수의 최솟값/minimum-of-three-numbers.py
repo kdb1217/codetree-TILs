@@ -9,7 +9,7 @@ min = a
 if a > b:
     min = b
 elif a > c:
-    min = b
+    min = c
 
 if b > c:
     min = c
