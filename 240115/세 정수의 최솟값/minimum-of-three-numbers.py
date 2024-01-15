@@ -8,6 +8,6 @@ min = a
 
 if min > b:
     min = b
-elif min > c:
+if min > c:
     min = c
 print(min)
