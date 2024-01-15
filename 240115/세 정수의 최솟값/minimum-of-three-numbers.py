@@ -10,8 +10,7 @@ if a > b:
     min = b
 elif a > c:
     min = c
-
-if b > c:
+elif b > c:
     min = c
 
 print(min)
