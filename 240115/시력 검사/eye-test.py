@@ -1,7 +1,5 @@
-arr = input().split()
-
-left = float(arr[0])
-right = float(arr[1])
+left = float(input())
+right = float(input())
 
 if left >= 1.0 and right >= 1.0:
     print("High")
