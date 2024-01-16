@@ -10,5 +10,5 @@ else:
     big = b
     small = a
 
-for i in range(b, a - 1, -1):
+for i in range(big, small - 1, -1):
     print(i, end=" ")
