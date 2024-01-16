@@ -5,6 +5,6 @@ hall = n // 3
 bath = n // 12
 
 hall -= bath
-room -= (n // 6) + bath
+room -= (n // 6) 
 
 print(room,hall,bath,sep = " ")
