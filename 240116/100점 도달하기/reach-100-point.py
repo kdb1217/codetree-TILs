@@ -3,11 +3,11 @@ n = int(input())
 for i in range(n, 101):
     if i >= 90:
         print("A", end = " ")
-    elif n >= 80:
+    elif i >= 80:
         print("B", end = " ")
-    elif n >= 70:
+    elif i >= 70:
         print("C", end = " ")
-    elif n >= 60:
+    elif i >= 60:
         print("D", end = " ")
     else:
         print("F", end = " ")
