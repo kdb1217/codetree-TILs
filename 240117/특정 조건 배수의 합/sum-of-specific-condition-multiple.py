@@ -4,7 +4,7 @@ a = int(arr[0])
 b = int(arr[1])
 tmp = a
 
-if b > a:
+if a > b:
     a = b
     b = tmp
 
