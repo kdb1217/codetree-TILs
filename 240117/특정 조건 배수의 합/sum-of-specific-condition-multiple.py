@@ -2,6 +2,11 @@ arr = input().split()
 
 a = int(arr[0])
 b = int(arr[1])
+tmp = a
+
+if b > a:
+    a = b
+    b = tmp
 
 total = 0
 
