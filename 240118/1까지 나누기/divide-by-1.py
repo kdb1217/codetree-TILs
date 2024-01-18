@@ -1,11 +1,7 @@
 n = int(input())
-a = 1
-cnt = 0
-while n >= 1:
-    n /= a
-    a += 1
-    cnt += 1
-    if n <= 1:
+answer = n
+for i in range(1, n):
+    answer /= i
+    if answer <= 1:
+        print(i)
         break
-
-print(cnt)
