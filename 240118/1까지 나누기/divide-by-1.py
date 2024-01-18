@@ -5,5 +5,7 @@ while n >= 1:
     n /= a
     a += 1
     cnt += 1
+    if n <= 1:
+        break
 
 print(cnt)
