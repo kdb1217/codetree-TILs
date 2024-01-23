@@ -2,4 +2,8 @@ n = int(input())
 
 for i in range(n):
     for j in range(n):
-        print()
+        if j % 2 == 1:
+            print(n - i, end = "")
+        else:
+            print(i + 1, end = "")
+    print()
