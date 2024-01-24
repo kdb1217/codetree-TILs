@@ -4,6 +4,6 @@ total = 0
 for i in range(len(arr)):
     total += arr[i]
 
-avg = arr / len(arr)
+avg = total / len(arr)
 
-print(f"{avg: .1f}")
+print(f"{avg:.1f}")
