@@ -12,4 +12,4 @@ for i in range(len(arr)):
 
 avg = total / cnt
 
-print(f"{total} {avg}")
+print("%d %.1f" %(total, avg))
