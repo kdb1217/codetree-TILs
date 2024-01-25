@@ -13,3 +13,4 @@ for i in range(repeatArray[1]):
     else:
         for i in range(arr[1] - 1, arr[2]):
             print(numArray[i], end = " ")
+        print()
