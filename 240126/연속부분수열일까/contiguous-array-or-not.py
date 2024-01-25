@@ -9,8 +9,9 @@ for i in range(0, len(aarr) - len(barr)):
         else:
             status = False
             break
+    if status == True:
+        print("Yes")
+        break
 
-if status == True:
-    print("Yes")
-else:
+if status == False:
     print("No")
