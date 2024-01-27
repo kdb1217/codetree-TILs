@@ -1,6 +1,6 @@
 arr = list(map(int, input().split()))
 maxNum = arr[0]
-minNum = arr[1]
+minNum = arr[0]
 
 for i in range(1, len(arr)):
     if maxNum < arr[i] and arr[i] != 999:
