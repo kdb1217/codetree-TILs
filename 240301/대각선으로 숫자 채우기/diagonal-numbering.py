@@ -8,31 +8,29 @@ answer = [
 
 cnt = 1
 
-# step 1:
-for start_col in range(m):
-    current_row = 0
-    current_col = start_col
+for col in range(m):
+    current_low = 0
+    current_col = col
 
-    while 0 <= current_col and current_row < n:
-        answer[current_row][current_col] = cnt
+    while(0 <= current_col and current_low < n ):
+        answer[current_low][current_col] = cnt
 
-        #변수 업데이트
-        current_row += 1
-        current_col -= 1
         cnt += 1
+        current_low += 1
+        current_col -= 1
 
-for start_low in range(1, n):
-    current_row = start_low
+for low in range(1, n):
+    current_low = low
     current_col = m - 1
 
-    while 0 <= current_col and current_row < n:
-        answer[current_row][current_col] = cnt
-
-        current_row += 1
-        current_col -= 1
+    while(0 <= current_col and current_low < n):
+        answer[current_low][current_col] = cnt
+        
         cnt += 1
+        current_low += 1
+        current_col -= 1
 
-for row in range(n):
+for low in range(n):
     for col in range(m):
-        print(answer[row][col], end = " ")
+        print(answer[low][col], end = " ")
     print()
