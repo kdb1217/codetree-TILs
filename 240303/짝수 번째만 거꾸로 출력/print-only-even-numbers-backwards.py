@@ -1,4 +1,7 @@
 n = input()
+answer = ""
+for i in range(1,len(n),2):
+    answer += n[i]
 
-for i in range(len(n) - 1, -1, -2):
-    print(n[i], end = "")
+for i in range(len(answer) - 1, -1, -1):
+    print(answer[i],end = "")
