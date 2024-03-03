@@ -10,5 +10,5 @@ while len(arr) > 1:
     else:
         arr.pop(-1)
         answer = "".join(arr)
-
+        print(answer)
         break
