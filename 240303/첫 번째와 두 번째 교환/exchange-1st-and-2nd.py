@@ -2,6 +2,8 @@ inputString = input()
 firstChar = inputString[0]
 secondChar = inputString[1]
 
+inputString = list(inputString)
+
 for i in range(len(inputString)):
 
     if inputString[i] == firstChar:
@@ -10,4 +12,5 @@ for i in range(len(inputString)):
     elif inputString[i] == secondChar:
         inputString[i] = firstChar
 
-print(inputString)
+answer = "".join(inputString)
+print(answer)
