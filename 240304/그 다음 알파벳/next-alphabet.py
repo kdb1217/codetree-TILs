@@ -1,6 +1,6 @@
 a = input()
 
 if ord(a) == 122:
-    print(chr(ord(a)))
+    print(chr(ord(97)))
 else:
     print(chr(ord(a) + 1))
