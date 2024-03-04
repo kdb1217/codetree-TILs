@@ -15,7 +15,7 @@ answer += int(tmp)
 tmp = ""
 for i in range(len(blist)):
     if blist[i] >= '0' and blist[i] <= '9':
-        tmp += alist[i]
+        tmp += blist[i]
 
 answer += int(tmp)
 print(answer)
