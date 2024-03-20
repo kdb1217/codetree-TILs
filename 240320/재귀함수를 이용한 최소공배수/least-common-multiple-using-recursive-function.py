@@ -1,7 +1,7 @@
 n = int(input())
 
 arr = list(map(int,input().split()))
-arr.sort()
+arr.sort(reverse = True)
 
 def gcd(a, b):
     if a < b:
