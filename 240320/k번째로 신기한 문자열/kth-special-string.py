@@ -10,7 +10,7 @@ for i in range(a):
     arr[i] = input()
 
 for i in range(a):
-    if c in arr[i]:
+    if arr[i][0:len(c)] == c:
         answerArr.append(arr[i])
 
 answerArr.sort()
