@@ -12,6 +12,6 @@ for i in range(n):
 
 tmp = sorted(arr, key=lambda x: (x.num, x.order))
 
-for info in arr:
-    index_in_tmp = tmp.index(info) 
-    print(index_in_tmp + 1, end=" ")
+for i in arr:
+    tmp_index = tmp.index(i)
+    print(tmp_index + 1, end = " ")
