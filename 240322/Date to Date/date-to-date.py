@@ -13,7 +13,7 @@ while True:
 
     if day > num_of_days[month]:
         month += 1
-        day = 0
+        day = 1
     
 
 
