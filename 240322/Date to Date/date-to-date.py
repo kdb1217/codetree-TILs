@@ -5,6 +5,9 @@ num_of_days = [0,31,28,31,30,31,30,31,31,30,31,30,31]
 month = m1
 day = d1
 while True:
+    if month == m2 and day == d2:
+        break
+        
     day += 1
     cnt_days += 1
 
@@ -12,7 +15,6 @@ while True:
         month += 1
         day = 0
     
-    if month == m2 and day == d2:
-        break
+
 
 print(cnt_days)
