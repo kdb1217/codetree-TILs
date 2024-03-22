@@ -5,9 +5,7 @@ currentDay = 11
 currenthour = 11
 currentmin = 11
 
-if day <= 11 and hour <= 11 and mins < 11:
-    print(-1)
-else:
+if day >= 11 and hour >= 11 and mins >= 11:
     while True:
         if currentDay == day and currenthour == hour and currentmin == mins:
             break
@@ -22,6 +20,6 @@ else:
         if currenthour == 24:
             currenthour = 0
             currentDay += 1
-        
-
     print(cntmin)
+else:
+    print(-1)
