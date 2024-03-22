@@ -1,6 +1,6 @@
 day ,hour ,mins = tuple(map(int, input().split()))
 
-if day == 11 and hour <= 11 and mins <= 11:
+if day == 11 and hour <= 11 and mins < 11:
     print(-1)
 
 cntmin = 0
