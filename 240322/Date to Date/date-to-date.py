@@ -1,6 +1,5 @@
 m1, d1, m2, d2 = tuple(map(int, input().split()))
-
-
+cnt_days = 0
 num_of_days = [0,31,28,31,30,31,30,31,31,30,31,30,31]
 
 month = m1
