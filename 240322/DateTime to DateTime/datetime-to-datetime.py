@@ -24,4 +24,4 @@ else:
             currentDay += 1
         
 
-        print(cntmin)
+    print(cntmin)
