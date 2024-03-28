@@ -1,8 +1,8 @@
 n = int(input())
 arr = [
-    0 for _ in range(2000)
+    0 for _ in range(50)
 ]
-tmp = 1000
+tmp = 25
 answer = 0
 
 for _ in range(n):
@@ -11,18 +11,17 @@ for _ in range(n):
 
     if b == "R":
         for i in range(a):
+            tmp += 1  
             arr[tmp] += 1
-            tmp += 1
-            
-            
+                
     else:
         for i in range(a):
-            arr[tmp] += 1
             tmp -= 1
+            arr[tmp] += 1
+            
             
 
 for i in range(len(arr)):
     if arr[i] >= 2:
         answer += 1
-
 print(answer)
