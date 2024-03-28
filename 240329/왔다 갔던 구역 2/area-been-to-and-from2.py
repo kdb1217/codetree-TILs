@@ -11,13 +11,13 @@ for _ in range(n):
 
     if b == "R":
         for i in range(a):
-            tmp += 1
             arr[tmp] += 1
+            tmp += 1
             
     else:
         for i in range(a):
-            tmp -= 1
             arr[tmp] += 1
+            tmp -= 1
 
 for i in range(len(arr)):
     if arr[i] >= 2:
