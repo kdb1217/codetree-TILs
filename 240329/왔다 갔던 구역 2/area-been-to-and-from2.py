@@ -1,8 +1,8 @@
 n = int(input())
 arr = [
-    0 for _ in range(50)
+    0 for _ in range(2000)
 ]
-tmp = 25
+tmp = 1000
 answer = 0
 
 for _ in range(n):
