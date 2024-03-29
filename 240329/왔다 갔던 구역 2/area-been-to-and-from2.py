@@ -13,11 +13,12 @@ for _ in range(n):
         for i in range(a):
             arr[tmp] += 1
             tmp += 1
+        
                 
     else:
         for i in range(a):
-            arr[tmp] += 1
             tmp -= 1
+            arr[tmp] += 1
                  
 for i in range(len(arr) - 1):
     if arr[i] >= 2:
