@@ -1,9 +1,9 @@
 n = int(input())
 arr = [
     []
-    for _ in range(200001)
+    for _ in range(50)
 ]
-tmp = 100000
+tmp = 25
 white = 0
 black = 0
 gray = 0
@@ -15,7 +15,6 @@ for _ in range(n):
         if distance == 1:
             arr[tmp].append("black")
         else:
-            arr[tmp].append("black")
             for _ in range(distance):
                 arr[tmp].append("black")
                 tmp += 1
@@ -29,8 +28,7 @@ for _ in range(n):
             for _ in range(distance):
                 arr[tmp].append("white") 
                 tmp -= 1
-            tmp += 1      
-           
+            tmp += 1                
 for x in arr:
     if len(x) > 0:
         if x.count("black") >= 2 and x.count("white") >= 2:
