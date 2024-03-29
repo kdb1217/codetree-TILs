@@ -11,17 +11,15 @@ for _ in range(n):
 
     if b == "R":
         for i in range(a):
-            tmp += 1  
             arr[tmp] += 1
+            tmp += 1
                 
     else:
         for i in range(a):
-            tmp -= 1
             arr[tmp] += 1
-            
-            
-
-for i in range(len(arr)):
+            tmp -= 1
+                 
+for i in range(len(arr) - 1):
     if arr[i] >= 2:
         answer += 1
 print(answer)
