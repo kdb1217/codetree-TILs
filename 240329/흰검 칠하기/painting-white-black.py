@@ -12,16 +12,25 @@ for _ in range(n):
     distance = int(distance)
 
     if direction == "R":
-        for _ in range(distance):
+        if distance == 1:
             arr[tmp].append("black")
-            tmp += 1
-    else:
-        for _ in range(distance):
+        else:
+            arr[tmp].append("black")
+            for _ in range(distance):
+                arr[tmp].append("black")
+                tmp += 1
             tmp -= 1
-            arr[tmp].append("white")
             
-
-
+            
+    else:
+        if distance == 1:
+            arr[tmp].append("white")
+        else:
+            for _ in range(distance):
+                arr[tmp].append("white") 
+                tmp -= 1
+            tmp += 1      
+           
 for x in arr:
     if len(x) > 0:
         if x.count("black") >= 2 and x.count("white") >= 2:
