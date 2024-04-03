@@ -6,13 +6,13 @@ arr = [
 tmp = 0
 answer = 0
 
-for i in range(n):
+for k in range(n):
     x1, y1, x2, y2 = tuple(map(int, input().split()))
     x1, y1, x2, y2 = x1 + 100, y1 + 100, x2 + 100, y2 + 100
     for i in range(x1, x2):
-        for j in range(y1, y2 + 1):
-            arr[i][j] = tmp % 2
-        tmp += 1
+        for j in range(y1, y2):
+            arr[i][j] = k % 2
+
 
 
 for i in range(len(arr)):
