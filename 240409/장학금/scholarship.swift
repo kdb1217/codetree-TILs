@@ -9,4 +9,6 @@ if midTerm >= 90 {
     } else {
         print(0)
     }
+} else {
+    print(0)
 }
