@@ -9,7 +9,7 @@ if c == "A" {
         print(i, terminator: " ")
     }
 } else if c == "D" {
-    for i in 1...n {
+    for i in 0...n - 1 {
         print(n - i, terminator: " ")
     }
 }
