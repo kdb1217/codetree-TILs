@@ -6,4 +6,6 @@ if a > 0 {
     for i in stride(from: 0, to: b, by: 1) {
         print(a, terminator: "")
     }
+} else {
+    print(0)
 }
