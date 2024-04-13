@@ -3,7 +3,7 @@ import Foundation
 let n = Int(readLine()!)!
 var arr: [Int] = []
 
-for i in stride(from: 0, to: 5, by: 1) {
+for i in stride(from: 0, to: n, by: 1) {
     arr.append(Int(readLine()!)!)
 }
 
